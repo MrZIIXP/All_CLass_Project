@@ -582,28 +582,12 @@ video {
   z-index: 10;
 }
 
-.z-20 {
-  z-index: 20;
-}
-
-.z-30 {
-  z-index: 30;
-}
-
-.z-50 {
-  z-index: 50;
-}
-
-.z-\[-10\] {
-  z-index: -10;
-}
-
 .z-40 {
   z-index: 40;
 }
 
-.-z-10 {
-  z-index: -10;
+.z-50 {
+  z-index: 50;
 }
 
 .mx-\[10\%\] {
@@ -629,6 +613,14 @@ video {
   margin-bottom: 130px;
 }
 
+.mb-\[5px\] {
+  margin-bottom: 5px;
+}
+
+.mt-\[12px\] {
+  margin-top: 12px;
+}
+
 .mt-\[130px\] {
   margin-top: 130px;
 }
@@ -639,18 +631,6 @@ video {
 
 .mt-\[20px\] {
   margin-top: 20px;
-}
-
-.mt-\[12px\] {
-  margin-top: 12px;
-}
-
-.mb-\[\] {
-  margin-bottom: ;
-}
-
-.mb-\[5px\] {
-  margin-bottom: 5px;
 }
 
 .inline {
@@ -695,6 +675,10 @@ video {
 
 .w-\[110px\] {
   width: 110px;
+}
+
+.w-\[111px\] {
+  width: 111px;
 }
 
 .w-\[170px\] {
@@ -753,6 +737,10 @@ video {
   gap: 10px;
 }
 
+.gap-\[15px\] {
+  gap: 15px;
+}
+
 .gap-\[20px\] {
   gap: 20px;
 }
@@ -761,16 +749,8 @@ video {
   gap: 23px;
 }
 
-.gap-\[13px\] {
-  gap: 13px;
-}
-
-.gap-\[15px\] {
-  gap: 15px;
-}
-
-.gap-\[\] {
-  gap: ;
+.gap-\[38px\] {
+  gap: 38px;
 }
 
 .gap-\[48px\] {
@@ -876,11 +856,6 @@ video {
   padding-bottom: 35px;
 }
 
-.px-\[10\] {
-  padding-left: 10;
-  padding-right: 10;
-}
-
 .py-\[50px\] {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -971,6 +946,31 @@ video {
 }
 
 @media (max-width: 510px) {
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .md\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .md\:mt-\[11\] {
+    margin-top: 11;
+  }
+
+  .md\:mt-\[118px\] {
+    margin-top: 118px;
+  }
+
+  .md\:mt-\[108px\] {
+    margin-top: 108px;
+  }
+
+  .md\:mt-\[98px\] {
+    margin-top: 98px;
+  }
+
   .md\:grid {
     display: grid;
   }
@@ -979,7 +979,78 @@ video {
     display: none;
   }
 
-  .md\:w-\[50\%\] {
-    width: 50%;
+  .md\:h-\[518px\] {
+    height: 518px;
+  }
+
+  .md\:w-\[307px\] {
+    width: 307px;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
+  }
+
+  .md\:flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:gap-\[28px\] {
+    gap: 28px;
+  }
+
+  .md\:gap-\[30px\] {
+    gap: 30px;
+  }
+
+  .md\:p-\[20px\] {
+    padding: 20px;
+  }
+
+  .md\:px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .md\:px-\[27px\] {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+
+  .md\:py-\[10pxx\] {
+    padding-top: 10pxx;
+    padding-bottom: 10pxx;
+  }
+
+  .md\:pl-\[40px\] {
+    padding-left: 40px;
+  }
+
+  .md\:pr-\[24px\] {
+    padding-right: 24px;
   }
 }
