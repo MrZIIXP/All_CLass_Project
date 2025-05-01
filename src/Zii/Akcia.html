@@ -8,8 +8,8 @@
 </head>
 <body>
     
-    <div class="top px-[10%] w-full z-50 fixed bg-white top-0 py-[20px]">
-        <div class=" flex justify-between">
+    <div class="top px-[10%] md:px-[20px] w-full z-50 fixed bg-white top-0 py-[20px] md:py-[10pxx]">
+        <div class=" flex justify-between md:hidden">
             <p class="font-medium text-[#686868]">Сеть клиник Томской области</p>
             <p class="text-[18px] text-[#686868] font-medium"><img src="./image/view 1.png" class="inline pr-[10px]" alt="">Версия для слабовидящих</p>
             <div class="flex gap-[20px] items-center">
@@ -17,41 +17,44 @@
                 <button class="text-[14px] text-white px-[28px] h-[36px] rounded-full bg-[#279A59]">Записаться на прием</button>
             </div>
         </div>
-        <br>
-        <div class="flex justify-between items-center">
+        <br class="md:hidden">
+        <div class="flex justify-between gap-[38px] items-center">
             <img src="./image/image 1.png" alt="">
-            <a href="">Врачи</a>
-            <a href="">Услуги</a>
-            <a href="">Диагностика</a>
-            <a href="">Анализы</a>
-            <a href="./Akcia.html">Акции</a>
-            <a href="">Пациентам</a>
-            <a href="">О клинике</a>
-            <a href="">Отзывы</a>
-            <a href="">Контакты</a>
+            <div class="flex justify-between w-full md:hidden">
+                <a href="">Врачи</a>
+                <a href="">Услуги</a>
+                <a href="">Диагностика</a>
+                <a href="">Анализы</a>
+                <a href="./Akcia.html">Акции</a>
+                <a href="">Пациентам</a>
+                <a href="">О клинике</a>
+                <a href="">Отзывы</a>
+                <a href="">Контакты</a>
+            </div>
+            <img src="./image/burger.png" alt="">
         </div>
 
 
     </div>
 
-    <div class="main_1 mt-[138px] px-[10%]">
+    <div class="main_1 mt-[138px] md:mt-[98px] px-[10%] md:px-[20px] md:w-full">
         <p class="text-[12px]">Главная > <span class="font-semibold">Наши акции</span></p>
         <br>
         <p class="text-[40px] font-bold">Наши акции</p>
         <br>
-        <div class="grid gap-[20px]">
+        <div class="grid gap-[20px] md:w-full">
 
-            <div class="flex gap-[20px]">
-                <div class="p-[30px] rounded-md flex text-white bg-[#3BB96D] w-full" style="background-image: url(./image/image\ 4.png); background-repeat: no-repeat; background-position: right bottom;">
-                    <div class="flex flex-col gap-[20px]">
+            <div class="flex gap-[20px] md:flex-col">
+                <div class="p-[30px] md:p-[20px] rounded-md flex text-white bg-[#3BB96D] w-full" style="background-image: url(./image/image\ 4.png); background-repeat: no-repeat; background-position: right bottom;">
+                    <div class="flex flex-col gap-[20px] md:h-[518px]">
                         <p class="text-[30px] font-bold">Скидка -20% на МРТ</p>
                         <p class="w-[318px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes.</p>
                         <p>Акция действует до <br><span class="font-bold text-[18px]">22.03.2023</span></p>
                         <button class="text-[#3BB96D] bg-white w-[170px] text-[14px] font-bold h-[38px] rounded-full">Подробнее ></button>
                     </div>
                 </div>
-                <div class="p-[30px] rounded-md flex text-white bg-[#27C8DA] w-full" style="background-image: url(./image/image\ 4.png); background-repeat: no-repeat; background-position: right bottom;">
-                    <div class="flex flex-col gap-[20px]">
+                <div class="p-[30px] md:p-[20px] rounded-md flex text-white bg-[#27C8DA] w-full" style="background-image: url(./image/image\ 4.png); background-repeat: no-repeat; background-position: right bottom;">
+                    <div class="flex flex-col gap-[20px] md:h-[518px]">
                         <p class="text-[30px] font-bold">Скидка -20% на МРТ</p>
                         <p class="w-[318px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes.</p>
                         <p>Акция действует до <br><span class="font-bold text-[18px]">22.03.2023</span></p>
@@ -60,7 +63,7 @@
                 </div>
             </div>
 
-            <div class="flex gap-[20px]">
+            <div class="flex gap-[20px] md:flex-col">
 
                 <div class="p-[10px] rounded-md flex text-white bg-[#27C8DA] w-full" style="background-image: url(./image/image\ 4\ \(1\).png); background-repeat: no-repeat; background-position: right bottom;">
                     <div class="flex flex-col gap-[10px]">
@@ -99,10 +102,10 @@
 
             </div>
 
-            <div class="flex gap-[20px] items-center">
+            <div class="flex gap-[20px] items-center md:flex-col">
 
-                <div class="p-[30px] w-[50%] rounded-md flex text-white bg-[#3BB96D]" style="background-image: url(./image/image\ 4.png); background-repeat: no-repeat; background-position: right bottom;">
-                    <div class="flex flex-col gap-[20px]">
+                <div class="p-[30px] md:p-[20px] w-[50%] md:w-full rounded-md flex text-white bg-[#3BB96D]" style="background-image: url(./image/image\ 4.png); background-repeat: no-repeat; background-position: right bottom;">
+                    <div class="flex flex-col gap-[20px] md:h-[518px]">
                         <p class="text-[30px] font-bold">Скидка -20% на МРТ</p>
                         <p class="w-[318px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes.</p>
                         <p>Акция действует до <br><span class="font-bold text-[18px]">22.03.2023</span></p>
@@ -110,7 +113,7 @@
                     </div>
                 </div>
 
-                <div class="grid grid-cols-2 grid-rows-2 w-[50%] gap-[23px]">
+                <div class="grid grid-cols-2 grid-rows-2 w-[50%] md:w-full md:grid-cols-1 md:grid-rows-4 gap-[23px]">
                     <div class="p-[10px] rounded-md flex text-white bg-[#27C8DA] w-full" style="background-image: url(./image/image\ 4\ \(1\).png); background-repeat: no-repeat; background-position: right bottom;">
                         <div class="flex flex-col gap-[10px]">
                             <p class="text-[20px] font-bold">Скидка -20% на МРТ</p>
@@ -147,17 +150,17 @@
 
             </div>
 
-            <div class="flex flex-row gap-[20px]">
-                <div class="p-[30px] rounded-md flex text-white bg-[#3BB96D] md:w-[50%] w-full" style="background-image: url(./image/image\ 4.png); background-repeat: no-repeat; background-position: right bottom;">
-                    <div class="flex flex-col gap-[20px]">
+            <div class="flex flex-row gap-[20px] md:flex-col">
+                <div class="p-[30px] md:p-[20px] rounded-md flex text-white bg-[#3BB96D] w-full" style="background-image: url(./image/image\ 4.png); background-repeat: no-repeat; background-position: right bottom;">
+                    <div class="flex flex-col gap-[20px] md:h-[518px]">
                         <p class="text-[30px] font-bold">Скидка -20% на МРТ</p>
                         <p class="w-[318px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes.</p>
                         <p>Акция действует до <br><span class="font-bold text-[18px]">22.03.2023</span></p>
                         <button class="text-[#3BB96D] bg-white w-[170px] text-[14px] font-bold h-[38px] rounded-full">Подробнее ></button>
                     </div>
                 </div>
-                <div class="p-[30px] rounded-md flex text-white md:hidden bg-[#27C8DA] w-full" style="background-image: url(./image/image\ 4.png); background-repeat: no-repeat; background-position: right bottom;">
-                    <div class="flex flex-col gap-[20px]">
+                <div class="p-[30px] md:p-[20px] rounded-md flex text-white md:hidden bg-[#27C8DA] w-full" style="background-image: url(./image/image\ 4.png); background-repeat: no-repeat; background-position: right bottom;">
+                    <div class="flex flex-col gap-[20px] md:h-[518px]">
                         <p class="text-[30px] font-bold">Скидка -20% на МРТ</p>
                         <p class="w-[318px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes.</p>
                         <p>Акция действует до <br><span class="font-bold text-[18px]">22.03.2023</span></p>
@@ -165,7 +168,7 @@
                     </div>
                 </div>
 
-                <div class="grid-cols-2 grid-rows-2 w-[50%] hidden md:grid gap-[23px]">
+                <div class="grid-cols-2 grid-rows-2 w-[50%] hidden md:grid-cols-1 md:w-full md:grid gap-[23px]">
                     <div class="p-[10px] rounded-md flex text-white bg-[#27C8DA] w-full" style="background-image: url(./image/image\ 4\ \(1\).png); background-repeat: no-repeat; background-position: right bottom;">
                         <div class="flex flex-col gap-[10px]">
                             <p class="text-[20px] font-bold">Скидка -20% на МРТ</p>
@@ -204,23 +207,23 @@
 
     </div>
 
-    <div class="main_2 py-[130px] px-[10%] bg-[#F1F5F8] my-[130px] h-[785px]" style="background-image: url(./image/Mask\ group.png); background-repeat: no-repeat; background-size: cover;">
+    <div class="main_2 py-[130px] px-[10%] bg-[#F1F5F8] md:px-[20px] md:w-full my-[130px] h-[785px]" style="background-image: url(./image/Mask\ group.png); background-repeat: no-repeat; background-size: cover;">
         <p class="text-[40px] font-bold">Наши лицензии</p>
         <br><br>
-        <div class="flex justify-between gap-[20px]">
+        <div class="flex justify-between gap-[20px] md:grid md:grid-cols-2">
             <img src="./image/image 7.png" alt="" class="w-full shadow-2xl shadow-black">
             <img src="./image/image 7.png" alt="" class="w-full shadow-2xl shadow-black">
             <img src="./image/image 7.png" alt="" class="w-full shadow-2xl shadow-black">
-            <img src="./image/image 7.png" alt="" class="w-full shadow-2xl shadow-black">
+            <img src="./image/image 7.png" alt="" class="w-full shadow-2xl shadow-black ">
         </div>
 
     </div>
 
-    <div class="main_3 flex justify-between rounded-[60px] w-[80%] mt-[130px] mb-[130px] mx-[10%]">
-        <div class="pl-[55px] text-white py-[35px] bg-[#272727] w-full rounded-[70px]">
+    <div class="main_3 flex justify-between rounded-[60px] w-[80%] md:w-full md:px-[20px] md:mx-0 mt-[130px] mb-[130px] mx-[10%]">
+        <div class="pl-[55px] md:pl-[40px] md:pr-[24px] text-white py-[35px] bg-[#272727] w-full rounded-[70px]">
             <p class="text-[40px] font-bold">Хотите, мы Вам перезвоним?</p>
-            <p class="">Оставьте заявку и мы подробно ответим на все Ваши вопросы!</p>
-            <div class="flex mt-[20px] gap-[20px]">
+            <p class="md:w-[307px]">Оставьте заявку и мы подробно ответим на все Ваши вопросы!</p>
+            <div class="flex mt-[20px] gap-[20px] md:flex-col-reverse">
                 <div>
                     <p class="font-semibold mb-[10px]">Ваше ФИО</p>
                     <input type="text" class="w-[270px] h-[44px] placeholder:px-[16px] bg-[#F1F5F8] rounded-full z-10" placeholder="Иванов Иван Иванович">
@@ -233,25 +236,24 @@
             </div>
             <button class="font-bold py-[11px] bg-[#3BB96D] rounded-full w-[270px] my-[20px]">Заказать звонок</button>
             <p class="text-[14px]">Нажимая на кнопку Заказать звонок вы соглашаетесь с <span class="text-[#3BB96D]">политикой конфиденциальности</span></p>
-            <img src="./image/image.png" alt="" class="absolute top-[2657px] h-[449px] right-[116px] z-10">
+            <img src="./image/image.png" alt="" class="absolute top-[2657px] h-[449px] right-[116px] z-10 md:hidden">
         </div>
 
     </div>
 
-    <div class="main_4 flex justify-between px-[10%] bg-[#279A59] text-white py-[50px]">
+    <div class="main_4 flex justify-between px-[10%] bg-[#279A59] md:px-[27px] md:flex-col md:gap-[30px] text-white py-[50px]">
 
         <div>
             <img src="./image/image 1.png" alt="">
 
-            <div class="mt-[12px] flex gap-[15px] flex-col">
-                <p class="text-[14px]">Адрес <br><span class="font-semibold">Москва, ул. Пушкина, д.43</span></p>
+            <div class="mt-[12px] flex gap-[15px] flex-col md:flex-row md:justify-between md: md:w-full">
+                <p class="text-[14px] w-[111px]">Адрес <br><span class="font-semibold">Москва, ул. Пушкина, д.43</span></p>
                 <p class="text-[14px]">Телефон <br><span class="font-semibold">+7 (9__) ___-__-__</span></p>
                 <p class="text-[14px]">Почта <br><span class="font-semibold">Poshta@gmail.com</span></p>
             </div>
 
         </div>
-
-        <div class="grid grid-cols-4 gap-[48px]">
+        <div class="grid grid-cols-4 gap-[48px] md:grid-cols-2 md:gap-[28px] md:w-full">
             <div class="flex flex-col gap-[10px]">
                 <p class="mb-[5px] font-bold text-[18px]">О клинике</p>
                 <p>Название пункта меню</p>
